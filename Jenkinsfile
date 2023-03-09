@@ -9,7 +9,7 @@ pipeline {
             stages {
                 stage('Clonar') {
                     steps {
-                        git branch:'main',url:'https://github.com/angelsuarez1612/djangotutorial_docker.git'
+                        git branch:'main',url:'https://github.com/angelsuarez1612/examendock-php.git'
                     }
                 }
                 stage('Contruir imagen') {
