@@ -2,7 +2,7 @@ version: '3.1'
 services:
   crud-php:
     container_name: cont-appphp-ex
-    image: angelsuarez1612/examendockerphp:v1
+    image: angelsuarez1612/examendockerphp
     restart: always
     environment:
       DB_USER: admin
